@@ -26,8 +26,11 @@
   (def failed-protagonist-names
     ["Larry Potter" "Doreen the Explorer" "The Incredible Bulk"])
 
-
   (def some-string
     "String string")
 
+
+  (println (:a {:a 1 :b 2 :c 3}))
+  (println ({:a 1 :b 2 :c 3} :b))
+  (println (get {:a 1 :b 2 :c 3} :c))
   (println "I'm a little teapot!"))
