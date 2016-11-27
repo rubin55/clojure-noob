@@ -30,6 +30,11 @@
     "String string")
 
 
+  (get [3 2 1] 0)
+
+  (println (conj [1 2 3] 4))
+  (println (conj '(1 2 3) 4))
+
   (println (:a {:a 1 :b 2 :c 3}))
   (println ({:a 1 :b 2 :c 3} :b))
   (println (get {:a 1 :b 2 :c 3} :c))
