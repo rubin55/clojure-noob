@@ -23,7 +23,7 @@
     (println "A When operation!")
     "abra cadabra")
 
-  (def failed-protagonist-names
+  (def failed-protagnist-names
     ["Larry Potter" "Doreen the Explorer" "The Incredible Bulk"])
 
   (def some-string
